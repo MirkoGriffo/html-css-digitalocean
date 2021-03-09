@@ -1,1 +1,143 @@
+/* General */
 
+.bianco {
+  color: white;
+}
+
+.testo-centrato {
+  text-align: center;
+}
+
+.blu-scuro {
+  color: #253a64;
+}
+
+.blu-chiaro {
+  color: #006aff;
+}
+
+/* Mobile first */
+
+.hidden {
+  visibility: hidden;
+}
+
+/*  Navbar */
+
+nav {
+  height: 60px;
+  background-color: #fff;
+}
+
+nav img {
+  width: 55%;
+  padding-right: 40px;
+  margin-top: 13px;
+  float: left;
+}
+
+.menu {
+  float: right;
+
+  font-size: 23px;
+  margin-top: 15px;
+  margin-right: 9px;
+}
+
+nav ul li:first-child {
+  margin-left: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+  list-style: none;
+  position: relative;
+  top: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #253a64;
+  font-weight: 600;
+}
+
+.nav-destra {
+  float: right;
+  position: relative;
+  bottom: 44px;
+}
+
+/* First-section */
+
+.first-section {
+  height: 720px;
+  background-image: url("../img/bg-banner-home.jpg");
+}
+
+.box {
+  height: 250px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+}
+
+.box2 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+  bottom: 75px;
+}
+
+.box2 h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.box2 .btn {
+  font-size: 13px !important;
+  margin-top: 20px;
+}
+
+.btn-block {
+  height: 1px !important;
+  padding-bottom: 30px !important;
+}
+
+.btn-primary {
+  background: #579aff !important;
+}
+
+.btn-secondary {
+  background-color: white !important;
+  color: black !important;
+  text-align: center !important;
+  padding-right: 43px !important;
+}
+
+.google {
+  width: 8%;
+  position: relative;
+  top: 2px;
+  float: left;
+}
+
+.form-group {
+  margin-bottom: -10px !important;
+}
+
+.form-group:first-child {
+  margin-top: -20px;
+}
+
+.tos {
+  height: 20px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.tos a {
+  text-decoration: underline;
+}

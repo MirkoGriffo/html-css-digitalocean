@@ -1,0 +1,89 @@
+/* 
+  ##Device = Desktops
+
+*/
+
+@media (min-width: 1025px) {
+  .hidden-lg {
+    visibility: hidden;
+  }
+
+  .visibility-lg {
+    visibility: visible;
+  }
+
+  nav img {
+    width: 22%;
+    position: relative;
+    bottom: 5px;
+  }
+
+  .first-section {
+    height: 80%;
+    padding-top: 200px;
+  }
+
+  .box h3 {
+    font-size: 55px;
+  }
+
+  .box p {
+    font-size: 19.5px;
+  }
+
+  .box2 h4 {
+    font-size: 35px;
+  }
+
+  .google {
+    width: 7%;
+    position: relative;
+    top: -4px;
+  }
+}
+
+/* 
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 767px to 1024px
+    */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav img {
+    width: 30%;
+  }
+
+  .first-section {
+    height: 70%;
+    padding-top: 150px;
+  }
+
+  .box {
+    padding-top: 20px;
+    width: 104%;
+  }
+
+  .box h3 {
+    margin-top: 15px;
+    font-size: 31.5px;
+  }
+
+  .box p {
+    font-size: 20px;
+  }
+
+  .box2 {
+    height: 108%;
+  }
+
+  .box2 h4 {
+    font-size: 34px;
+  }
+
+  .google {
+    padding-top: 5px;
+  }
+
+  .tos {
+    font-size: 15px;
+  }
+}
