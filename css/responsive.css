@@ -55,6 +55,16 @@
     margin-left: 10px;
     width: 15%;
   }
+
+  /* Sezione Deploy */
+
+  .deploy {
+    height: 500px;
+  }
+
+  .container-box {
+    margin-top: 40px;
+  }
 }
 
 /* 
@@ -116,5 +126,23 @@
   .icone img {
     margin-left: 5px;
     width: 15%;
+  }
+
+  /* Sezione Deploy */
+
+  .deploy {
+    height: 600px;
+  }
+
+  .box-info h4 {
+    font-size: 18px;
+  }
+
+  .box-info p {
+    font-size: 13px;
+  }
+
+  .container-box {
+    margin-top: 40px;
   }
 }

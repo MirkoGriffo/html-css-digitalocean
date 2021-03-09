@@ -1,5 +1,10 @@
 /* General */
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 .bianco {
   color: white;
 }
@@ -24,6 +29,10 @@
 
 .hidden {
   visibility: hidden;
+}
+
+.collapse {
+  visibility: collapse;
 }
 
 /*  Navbar */
@@ -162,4 +171,44 @@ nav ul li a {
 .icone img {
   margin-left: 25px;
   width: 40%;
+}
+
+/* Sezione deploy */
+
+.deploy {
+  height: 630px;
+}
+
+.deploy h3 {
+  margin-top: 45px;
+}
+
+.deploy-text {
+  font-size: 24px;
+  font-weight: 250;
+}
+
+.box-list {
+  border-left: 2px solid #7a849e;
+  margin-bottom: 25px;
+}
+
+.box-list ul {
+  list-style: none;
+  color: #7a849e;
+  position: relative;
+  right: 28px;
+}
+
+.box-list ul li {
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.box-info {
+  height: 170px;
+}
+
+.box-info h4 {
+  margin-top: 10px;
 }
