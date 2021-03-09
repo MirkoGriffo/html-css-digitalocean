@@ -16,6 +16,10 @@
   color: #006aff;
 }
 
+.grigio {
+  color: #737f9a;
+}
+
 /* Mobile first */
 
 .hidden {
@@ -140,4 +144,22 @@ nav ul li a {
 
 .tos a {
   text-decoration: underline;
+}
+
+/* Sezione icone */
+
+.icone {
+  height: 400px;
+  background-color: #f3f5f9;
+  margin-top: -20px;
+}
+
+.icone p {
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+.icone img {
+  margin-left: 25px;
+  width: 40%;
 }

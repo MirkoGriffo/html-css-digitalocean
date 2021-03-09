@@ -40,6 +40,21 @@
     position: relative;
     top: -4px;
   }
+  /* Sezione Icone */
+
+  .icone {
+    height: 350px;
+  }
+
+  .icone p {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  .icone img {
+    margin-left: 10px;
+    width: 15%;
+  }
 }
 
 /* 
@@ -85,5 +100,21 @@
 
   .tos {
     font-size: 15px;
+  }
+
+  /* Sezione Icone */
+
+  .icone {
+    height: 280px;
+  }
+
+  .icone p {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  .icone img {
+    margin-left: 5px;
+    width: 15%;
   }
 }
