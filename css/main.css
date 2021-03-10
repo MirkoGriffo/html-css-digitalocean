@@ -25,6 +25,14 @@ html {
   color: #737f9a;
 }
 
+.sfondo-grigio {
+  background-color: #f3f5f9;
+}
+
+.gradient-blu {
+  background-image: linear-gradient(#0047c5, #00219c);
+}
+
 .pt50 {
   padding-top: 50px;
 }
@@ -226,7 +234,6 @@ nav ul li a {
 
 .designed {
   height: 900px;
-  background-color: #f3f5f9;
   margin-top: 570px;
   padding-top: 45px;
 }
@@ -269,7 +276,6 @@ nav ul li a {
 
 .tabella {
   height: auto;
-  background-image: linear-gradient(#0047c5, #00219c);
   margin-top: 130px;
 }
 
@@ -280,4 +286,118 @@ nav ul li a {
 .table a {
   color: #00aaca;
   font-size: 14px;
+}
+
+/* Rockerbox */
+
+.section-rockerbox {
+  height: 670px;
+  position: relative;
+  bottom: 44px;
+}
+
+.section-rockerbox h3 {
+  padding-top: 40px;
+}
+
+.section-rockerbox .freccia-sinistra {
+  position: absolute;
+  top: 350px;
+}
+
+.section-rockerbox .freccia-destra {
+  position: absolute;
+  top: 350px;
+  left: 670px;
+}
+
+.rockerbox {
+  height: 60%;
+  width: 80%;
+  background-color: #fff;
+  margin-left: 10%;
+  padding-top: 30px;
+}
+
+.rockerbox p {
+  font-size: 15px;
+}
+
+.rockerbox p:first-of-type {
+  font-size: 27px;
+  margin-top: 20px;
+}
+
+/* Sezione Get started */
+
+.get-started {
+  height: 250px;
+  position: relative;
+  bottom: 90px;
+}
+
+.get-started h3 {
+  padding-top: 80px;
+}
+
+.btn-bianco {
+  background-color: white;
+  margin-left: 30%;
+  margin-top: 25px;
+}
+
+/* Footer */
+
+footer {
+  height: 1350px;
+  background-color: #031c4e;
+  position: relative;
+  bottom: 90px;
+  color: #46577a;
+}
+
+.loghi-social {
+  height: 200px;
+  position: relative;
+  top: 30px;
+}
+
+.loghi-social img {
+  padding-bottom: 15px;
+}
+
+.loghi-social p:nth-of-type(2) {
+  position: relative;
+  bottom: 18px;
+}
+
+.social {
+  font-size: 25px;
+  position: relative;
+  bottom: 18px;
+}
+
+.social i {
+  padding-left: 10px;
+}
+
+.links {
+  height: 290px;
+  margin-top: 40px;
+}
+
+.links ul {
+  list-style: none;
+  position: relative;
+  right: 33px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #969eb1;
+}
+
+.links ul li:first-child a {
+  color: #fff;
+  font-size: 20px;
 }
