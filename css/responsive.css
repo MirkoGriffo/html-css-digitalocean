@@ -95,6 +95,18 @@
     font-size: 60px;
     margin-left: 25px;
   }
+
+  /* Sezione Features */
+
+  .features {
+    height: auto;
+  }
+
+  /* Sezione Tabella */
+
+  .tabella {
+    height: 500px;
+  }
 }
 
 /* 
@@ -165,7 +177,7 @@
   /* Sezione Deploy */
 
   .deploy {
-    height: 650px;
+    height: auto;
   }
 
   .box-info h4 {
@@ -188,7 +200,7 @@
 
   .designed {
     margin-top: 0;
-    height: 940px;
+    height: 990px;
   }
 
   .designed img {
@@ -209,4 +221,16 @@
     font-size: 50px;
     margin-left: 25px;
   }
+
+  /* Sezione Features */
+
+  .features {
+    height: 420px;
+  }
+
+  .box-info {
+    width: 190px;
+  }
+
+  /* Sezione Tabella */
 }
