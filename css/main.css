@@ -35,6 +35,10 @@ html {
   visibility: collapse;
 }
 
+.ml40 {
+  margin-left: 40%;
+}
+
 /*  Navbar */
 
 nav {
@@ -179,13 +183,14 @@ nav ul li a {
   height: 630px;
 }
 
-.deploy h3 {
+.titolo {
   margin-top: 45px;
 }
 
-.deploy-text {
+.sottotitolo {
   font-size: 24px;
   font-weight: 250;
+  margin-top: 45px;
 }
 
 .box-list {
@@ -211,4 +216,36 @@ nav ul li a {
 
 .box-info h4 {
   margin-top: 10px;
+}
+
+/* Sezione Designed */
+
+.designed {
+  height: 900px;
+  background-color: #f3f5f9;
+  margin-top: 570px;
+  padding-top: 45px;
+}
+
+.designed img {
+  width: 100%;
+
+  margin-top: 70px;
+}
+
+.designed h5 {
+  margin-top: 30px;
+}
+
+.pallino {
+  height: 14px;
+  width: 14px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.pallino-blu {
+  background-color: #006aff;
 }
